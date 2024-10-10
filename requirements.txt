@@ -1,0 +1,10 @@
+﻿numpy
+random
+matplotlib.pyplot
+pandas
+tensorflow
+keras
+os
+seaborn
+zipfile
+PIL
