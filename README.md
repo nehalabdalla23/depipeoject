@@ -15,7 +15,7 @@ B] Data Preprocessing:
 1-Undersampling: The dataset was undersampled to 45 classes to balance the classes.
 2-Resizing: The dataset was resized to be 225x255 and grey scale with the dimentions (225,225,1).
 3-Normalizing: The dataset was normalized so that the value of each pixel vary between (0,1).
-4-Positive and Negative Pairs: Images were split into positive and negative pairs for training and testing. Positive pairs contain images from the same class, while negative pairs contain images from different classes.
+4-Positive and Negative Pairs: Images were split into positive and negative pairs for training,validating and testing. Positive pairs contain images from the same class, while negative pairs contain images from different classes.
 5-Positive and Negative label Pairs: labels were given to each pair as if they are from the same class label would be 1 other wise it's 0.
 
 C] Model Architecture:
@@ -46,5 +46,5 @@ Other relevant libraries (specify in your requirements.txt file)
 
 
 
--Colab_Source_Code:https://colab.research.google.com/drive/1LU-Z3aFENVK_iVnmkG3Xajtofiij6J7e?authuser=1#scrollTo=sEHgkWk0lOtm
+-Colab_Source_Code:[https://colab.research.google.com/drive/1LU-Z3aFENVK_iVnmkG3Xajtofiij6J7e?authuser=1#scrollTo=sEHgkWk0lOtm](https://colab.research.google.com/drive/1rK1UkOIviDDoo8CPzosbTH0ijEdn_Y8Z?usp=sharing)
 -Dataset Source:https://www.kaggle.com/datasets/antoreepjana/animals-detection-images-dataset
